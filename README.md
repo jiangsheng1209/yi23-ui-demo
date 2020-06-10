@@ -1,24 +1,23 @@
-# xr-ui
+# ui demo
+基于 vue-cli3 的 ui 组件库
 
-## Project setup
+### Install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+    npm install yi23-ui -S
 ```
 
-### Compiles and minifies for production
+### Usage
 ```
-npm run build
+    import Vue from "vue"
+    import DemoUi from "yi23-ui"
+    import 'yi23-ui/lib/yi23-ui.css'
+
+    Vue.use(DemoUi)
 ```
 
-### Lints and fixes files
+在项目中使用
+
 ```
-npm run lint
+    <xr-test :img_url="abc"></xr-test>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
